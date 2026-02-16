@@ -11,8 +11,7 @@ class Solution {
             if (reversedString.contains("-")) {
                 String ansStr = reversedString.substring(0, reversedString.length() - 1);
                 return (Integer.parseInt(ansStr) * -1);
-            }
-            else {
+            } else {
                 return Integer.parseInt(reversedString);
             }
         } catch (NumberFormatException e) {
