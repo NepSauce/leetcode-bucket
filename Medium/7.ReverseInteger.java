@@ -9,8 +9,8 @@ class Solution {
 
         try { 
             if (reversedString.contains("-")) {
-            String ansStr = reversedString.substring(0, reversedString.length() - 1);
-            return (Integer.parseInt(ansStr) * -1);
+                String ansStr = reversedString.substring(0, reversedString.length() - 1);
+                return (Integer.parseInt(ansStr) * -1);
             }
             else {
                 return Integer.parseInt(reversedString);
